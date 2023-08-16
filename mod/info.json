@@ -1,0 +1,9 @@
+{
+  "name": "magic-thing",
+  "version": "0.0.1",
+  "title": "Magic Thing",
+  "author": "Solonarv",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "This mod adds in magic stuff."
+}
