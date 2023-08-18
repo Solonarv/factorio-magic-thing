@@ -1,4 +1,4 @@
-mana_types = {"chthonic", "celestine", "motive", "still"}
+mana_types = {"chthonic", "celestine", "motive", "still", "quintessent"}
 mod_name = "magic-thing"
 crystal_stack_size = 50
 
