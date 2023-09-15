@@ -19,18 +19,22 @@ for _,ty in ipairs(mana_types) do
     })
 end
 
-local my_rock = table.deepcopy(data.raw["simple-entity"]["rock-big"])
-
-my_rock.name = "crystalized-mana"
-
+local rock_big = table.deepcopy(data.raw["simple-entity"]["rock-big"])
+local rock_huge = table.deepcopy(data.raw["simple-entity"]["rock-huge"])
 for _,ty in ipairs(mana_types) do
-    table.insert(my_rock.loot,{
+    table.insert(rock_big.loot, {
         count_max = 1,
         count_min = 1,
         item = "mana-crystal-"..ty,
-        probability = 0.25
+        probability = 0.2
+    })
+    table.insert(rock_huge.loot, {
+        count_max = 1,
+        count_min = 4,
+        item = "mana-crystal-"..ty,
+        probability = 0.2
     })
 end
 
 data:extend(crystal_items)
-data:extend{my_rock}
+data:extend{rock_big, rock_huge}
