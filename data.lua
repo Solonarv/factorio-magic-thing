@@ -1,8 +1,10 @@
-mana_types = {"chthonic", "celestine", "motive", "still", "quintessent"}
-mod_name = "magic-thing"
-crystal_stack_size = 50
+require("util")
 
-function icon_for(name)
+local mana_types = {"chthonic", "celestine", "motive", "still", "quintessent"}
+local mod_name = "magic-thing"
+local crystal_stack_size = 50
+
+local function icon_for(name)
     return "__"..mod_name.."__/graphics/" .. name .. ".png"
 end
 
