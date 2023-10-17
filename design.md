@@ -39,7 +39,23 @@ startup: harvest mana from the environment, comes in a few forms
 - an excess of chthonic mana draws celestine mana from Nauvis' upper atmosphere
 
 useful applications:
+- it's an overhaul mod, everything!
 - better steam turbine: steam + still mana (cr) => water (partial) + motive mana (at)
 - barrier generator: still mana (liq) generates a wall, damage to wall evaporates the mana
 - misc. weapons
 - celestial wrath rod: takes in electricity + motive (bd), builds up, lightning strike => more electricity, mana converts into celestine (at/glob mix)
+
+resource loops/progression:
+- mana trees
+  - arboretum uses mana (cr) + water to grow trees, outputs mana-infused wood
+    - wood is infused with some type of mana. not the same that was used to grow it (random).
+  - extractor does mana-infused wood -> wood + mana (cr)
+  - later: control over which type of mana the wood is infused with, ability to just grow normal wood (and vent mana into chunk)
+- new wood uses:
+  - green circuits
+  - burn/smelt for charcoal
+- later:
+  - paper (wood + water)
+  - ink (charcoal + water + ???)
+  - paper + ink (+ mana) = magic diagrams
+- sand, glass, quartz
